@@ -1,0 +1,13 @@
+2023-05-25T11:41:20+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\portfolio_anke\wp-content\themes\busia\functions.php:1835
+Stack trace:
+#0 C:\xampp\htdocs\portfolio_anke\wp-content\themes\busia\header.php(37): busia_website_layout()
+#1 C:\xampp\htdocs\portfolio_anke\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\portfolio_anke\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#3 C:\xampp\htdocs\portfolio_anke\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\xampp\htdocs\portfolio_anke\wp-content\themes\busia\404.php(9): get_header()
+#5 C:\xampp\htdocs\portfolio_anke\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\portfolio_anke\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\portfolio_anke\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\portfolio_anke\wp-content\themes\busia\functions.php on line 1835
+
